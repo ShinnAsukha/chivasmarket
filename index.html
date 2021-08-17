@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/safety.css">
+  <link rel="stylesheet" href="./css/shop.css">
+
+  <script language="JavaScript">
+
+    var left=" [ ";
+    var right=" ] ";
+    var msg=" ChivasMarket.xyz / Turkiye'nin En Kaliteli Sosyal Medya Ürünleri! | ";
+    var speed=200;
+     
+    function scroll_title() {
+            document.title=left+msg+right;
+            msg=msg.substring(1,msg.length)+msg.charAt(0);
+            setTimeout("scroll_title()",speed);
+    }
+    scroll_title();
+     
+    </script>
+
+</head>
+
+<div class ="adaa">
+<marquee direction=right>SITEMIZ AKTIF! SATIN ALIMLAR IBAN, PAPARA & ININAL UZERINDEN YAPILMAKTADIR!</marquee>
+</div>
+
+<iframe src="a.mp3" loop id="x" allow="autoplay" style="display:none">
+</iframe> 
+<audio id="y">
+
+  <source src="a.mp3"  type="audio/mpeg">
+
+</audio>
+
+<button onclick="play()">Müziği Başlat</button>
+
+<button onclick="pause()">Müziği Durdur</button>  
+  
+<script>
+ function play() {
+       y.play();
+    }
+
+    function pause() {
+
+      x.setAttribute("src", "");
+       y.pause();
+    }  
+</script>
+
+<body>
+  <div class="fixed">
+    <navbar id="navbar">
+      <div class="navbar_container">
+        <ul>
+          <li class="navbar_items">
+            <a href="whatsapp.html" class="blue">whatsapp</a>
+          </li>
+          <li class="navbar_items">
+            <a href="faq.html" class="green">sss</a>
+          </li>
+          <li>
+            <a href="index.html"><img src="./img/logos/WhiteLogo.png" class="logo" alt="a2990"></a>
+          </li>
+          <li class="navbar_items">
+            <a href="safety.html" class="purple">güvelik</a>
+          </li>
+          <li class="navbar_items">
+            <a href="instagram.html" class="red">instagram</a>
+          </li>
+        </ul>
+      </div>
+    </navbar>
+  </div>
+  <div class="slideshow">
+
+  </div>
+
+  <script src="./js/carrosel.js"></script>
+  <script>
+    const carrousel = new Carrousel({
+      el: ".slideshow",
+      imgs: [
+        "https://cdn.discordapp.com/attachments/876892552555556954/876901690983469096/kaliteli.png",
+        "https://cdn.discordapp.com/attachments/876892552555556954/876902078805606421/enucuz.png",
+        "https://cdn.discordapp.com/attachments/876892552555556954/876902357097652265/destek.png",
+        "https://cdn.discordapp.com/attachments/876892552555556954/876902698132320327/odeme.png",
+        "https://cdn.discordapp.com/attachments/876892552555556954/876903098784825404/stok.png"
+      ]
+    })
+  </script>
+
+<body onLoad="slide1()"></body>
+<img id="slide1">
+<script src="/js/main.js"></script>
+<script type="text/javascript">
+  function slide1() {
+    const slide = document.getElementById("slide1")
+    let slideAtual = 5
+    slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+    setInterval(() => {
+      slideAtual == 0 ? (() => {
+        slideAtual = 5
+        slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+      })() : (() => {
+        slideAtual = 0
+        slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+      })()
+    }, 9000);
+  }
+</script>
+
+<body onLoad="slide1()"></body>
+<img id="slide1">
+<script src="/js/main.js"></script>
+<script type="text/javascript">
+  function slide1() {
+    const slide = document.getElementById("slide1")
+    let slideAtual = 5
+    slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+    setInterval(() => {
+      slideAtual == 0 ? (() => {
+        slideAtual = 5
+        slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+      })() : (() => {
+        slideAtual = 0
+        slide.src = "https://cdn.discordapp.com/attachments/876183517531361300/876537398987722802/standard.gif"
+      })()
+    }, 9000);
+  }
+</script>
+
+
+
+<section>
+  <div class="card_shop2">
+    <img src="./img/products/youtube.gif" alt="">
+    <h1>YOUTUBE PAKETLERI</h1>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <p class="rgb">En Yeni Ürünler!</p>
+    <p class="card_shop2_text">YOUTUBE'A EMEK VEREREK BAŞLAMAYA ARTIK SON! YÜKSEK TAKİPÇİLER İLE BAŞLAYIP HERKESİN ÖNÜNE GEÇME VAKTİ GELDİ! HADI HEMEN SENDE SATIN AL :)</p>
+  </div>
+</section>
+
+<section>
+  <div class="card_shop2">
+    <img src="./img/products/twitch.gif" alt="">
+    <h1>TWITCH PAKETLERI</h1>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+    <p class="rgb">Yeni Ürün!</p>
+    <p class="card_shop2_text">TWITCH KANALINIZ VAR FAKAT IZLENMIYOR MUSUNUZ, BU SORUNU SİZİN İÇİN ÇÖZELİM... EN HIZLI ŞEKİLDE GÖNDERİM SAĞLADIĞIMIZ TWITCH PAKETİMİZ SİTEMİZDE AKTİF!</p>
+  </div>
+</section>
+
+<main>
+  <div>
+    <h1>SATIN ALIMLARDA DESTEK</h1>
+    <h4>Satın alımdan sonra verilen desteklerle ilgili minik bir makale!</h4>
+    <p>Satın alımlardan sonra size 7/24 destek vermekteyiz, sitemizde iade kabul etmemekteyiz. Satın alımı yaptıktan sonra iade isterseniz ekibimiz ile görüşmeniz gerekmektedir. Eğer sonuç alamazsanız yarısını iade etmekteyiz. Satın alımlarda yaşadığınız sorunlardan sorumlu değiliz fakat eğer yaşarsanız bize kanıt olarak gönderirseniz size fazladan gönderim sağlayabiliriz.</p>
+    <img src="./img/stock/mdma.svg" alt="mdma" style="color: white;">
+    <p style="margin-top: -70px;">*Satın alımlarda 7/24 destek sağlanmaktadır</p>
+  </div>
+</main>
+
+<div class="rgb">
+<center>this site is coded with 🤨 by ada, mehmet and efe :)</center>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+<! --
+  ______    ______    ______    ______    ______  
+ /      \  /      \  /      \  /      \  /      \       
+/$$$$$$  |/$$$$$$  |/$$$$$$  |/$$$$$$  |/$$$$$$  |
+$$ |__$$ |$$____$$ |$$ \__$$ |$$ \__$$ |$$$  \$$ |
+$$    $$ | /    $$/ $$    $$ |$$    $$ |$$$$  $$ |
+$$$$$$$$ |/$$$$$$/   $$$$$$$ | $$$$$$$ |$$ $$ $$ |
+$$ |  $$ |$$ |_____ /  \__$$ |/  \__$$ |$$ \$$$$ |
+$$ |  $$ |$$       |$$    $$/ $$    $$/ $$   $$$/ 
+$$/   $$/ $$$$$$$$/  $$$$$$/   $$$$$$/   $$$$$$/
+                                
+  -->
+
+
+
+</html>
